@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 fontSize: isMobile ? "6rem" : "14rem",
                 fontWeight: '500',
                 duration: 0.75,
-                onCompleter: () => {
+                onComplete: () => {
                     gsap.set(".preloader", {
                         clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)",
                     });
