@@ -202,3 +202,33 @@ overflow: hidden;
 }
 
 
+@media (max-width: 600px) {
+   .card h1 {
+    font-size: 2.7rem;
+  }
+
+
+  .card {
+    width: 90%;
+    height: 60%;
+    padding: 1em;
+  }
+ 
+
+  .container {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+  .card h1 {
+    font-size: 2.2rem;
+  }
+
+  .card {
+    width: 60%;
+    height: 65%;
+    padding: 1.5em;
+  }
+
+ 
+}
