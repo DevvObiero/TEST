@@ -206,10 +206,6 @@ overflow: hidden;
    .card h1 {
     font-size: 2.7rem;
   }
- .outro-title h1{
-        font-size: 11.2rem;
-        margin-top: 80px;
-  }
 
 
   .card {
@@ -223,17 +219,20 @@ overflow: hidden;
     min-height: 100vh;
   }
 }
-@media (min-width: 601px) and (max-width: 1000px) {
-  .card h1 {
-    font-size: 2.2rem;
+@media (max-width:1000px) {
+  h1{
+    font-size: 2.5rem;
   }
 
- 
-  .card {
-    width: 60%;
-    height: 65%;
-    padding: 1.5em;
+  .outro-title{
+    left: calc(60% + 5rem);
+  top: 46%;
+
   }
 
- 
+  .intro-title .char,
+  .outro-title .char{
+  margin-top: 0.5rem;
+  }
+  
 }
