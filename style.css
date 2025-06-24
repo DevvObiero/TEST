@@ -224,6 +224,11 @@ overflow: hidden;
     font-size: 2.2rem;
   }
 
+  .outro-title h1{
+        font-size: 14.2rem;
+        margin-top: 10px;
+  }
+
   .card {
     width: 60%;
     height: 65%;
